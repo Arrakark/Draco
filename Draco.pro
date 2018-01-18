@@ -1,4 +1,4 @@
-update=1/14/2018 11:39:06 PM
+update=1/17/2018 7:56:41 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -63,3 +63,4 @@ LibName31=contrib
 LibName32=valves
 LibName33=RFM95
 LibName34=TXB0104DR
+LibName35=LOGIC-TXS0108EPWR_TSSOP20_
