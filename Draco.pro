@@ -1,4 +1,4 @@
-update=1/17/2018 7:56:41 PM
+update=1/21/2018 6:10:17 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -64,3 +64,4 @@ LibName32=valves
 LibName33=RFM95
 LibName34=TXB0104DR
 LibName35=LOGIC-TXS0108EPWR_TSSOP20_
+LibName36=C:/Users/Vlad/Documents/CurrentControlSystems
