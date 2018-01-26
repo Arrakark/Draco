@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\Vlad\Documents\Draco\Draco.sch)
-    (date "1/25/2018 10:40:30 PM")
+    (date "1/25/2018 11:58:14 PM")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
