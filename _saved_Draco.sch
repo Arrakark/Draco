@@ -688,17 +688,6 @@ F 3 "" H 14400 7250 50  0001 C CNN
 	1    14400 7150
 	1    0    0    -1  
 $EndComp
-$Comp
-L Conn_01x01 J14
-U 1 1 5A5F4C41
-P 14100 7450
-F 0 "J14" H 14100 7550 50  0000 C CNN
-F 1 "Conn_01x01" H 14100 7350 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 14100 7450 50  0001 C CNN
-F 3 "" H 14100 7450 50  0001 C CNN
-	1    14100 7450
-	-1   0    0    1   
-$EndComp
 Text Label 8050 2800 2    60   ~ 0
 5V_LORA_NSS
 Text Label 8050 2700 2    60   ~ 0
@@ -1300,11 +1289,6 @@ Wire Wire Line
 	14500 7350 14500 8500
 Connection ~ 15050 8500
 Wire Wire Line
-	14300 7450 14600 7450
-Wire Wire Line
-	14400 7450 14400 7350
-Connection ~ 14400 7450
-Wire Wire Line
 	7400 2400 8050 2400
 Wire Wire Line
 	7400 2700 8050 2700
@@ -1847,4 +1831,8 @@ F 3 "" H 1450 2550 50  0001 C CNN
 	1    1450 2550
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	14600 7450 14400 7450
+Wire Wire Line
+	14400 7450 14400 7350
 $EndSCHEMATC
