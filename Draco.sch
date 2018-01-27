@@ -323,7 +323,7 @@ U 1 1 5A5B1066
 P 7800 9150
 F 0 "J11" H 7800 9450 50  0000 C CNN
 F 1 "Conn_01x06" H 7800 8750 50  0000 C CNN
-F 2 "Connectors_JST:JST_PH_B6B-PH-K_06x2.00mm_Straight" H 7800 9150 50  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x06_Pitch2.54mm" H 7800 9150 50  0001 C CNN
 F 3 "" H 7800 9150 50  0001 C CNN
 	1    7800 9150
 	-1   0    0    -1  
@@ -688,17 +688,6 @@ F 3 "" H 14400 7250 50  0001 C CNN
 	1    14400 7150
 	1    0    0    -1  
 $EndComp
-$Comp
-L Conn_01x01 J14
-U 1 1 5A5F4C41
-P 14100 7450
-F 0 "J14" H 14100 7550 50  0000 C CNN
-F 1 "Conn_01x01" H 14100 7350 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 14100 7450 50  0001 C CNN
-F 3 "" H 14100 7450 50  0001 C CNN
-	1    14100 7450
-	-1   0    0    1   
-$EndComp
 Text Label 8050 2800 2    60   ~ 0
 5V_LORA_NSS
 Text Label 8050 2700 2    60   ~ 0
@@ -988,7 +977,7 @@ U 1 1 5A67159A
 P 12150 5100
 F 0 "J13" H 12150 5300 50  0000 C CNN
 F 1 "Conn_01x04" H 12150 4800 50  0000 C CNN
-F 2 "Connectors_JST:JST_PH_B4B-PH-K_04x2.00mm_Straight" H 12150 5100 50  0001 C CNN
+F 2 "Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight" H 12150 5100 50  0001 C CNN
 F 3 "" H 12150 5100 50  0001 C CNN
 	1    12150 5100
 	1    0    0    -1  
@@ -1299,11 +1288,6 @@ Wire Wire Line
 Wire Wire Line
 	14500 7350 14500 8500
 Connection ~ 15050 8500
-Wire Wire Line
-	14300 7450 14600 7450
-Wire Wire Line
-	14400 7450 14400 7350
-Connection ~ 14400 7450
 Wire Wire Line
 	7400 2400 8050 2400
 Wire Wire Line
@@ -1847,4 +1831,8 @@ F 3 "" H 1450 2550 50  0001 C CNN
 	1    1450 2550
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	14600 7450 14400 7450
+Wire Wire Line
+	14400 7450 14400 7350
 $EndSCHEMATC
