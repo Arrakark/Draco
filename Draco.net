@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source C:\Users\Vlad\Documents\Draco\Draco.sch)
-    (date "1/29/2018 10:48:07 PM")
+    (source C:/Users/Vlad/Documents/Draco/Draco.sch)
+    (date "1/29/2018 11:53:23 PM")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1364,18 +1364,18 @@
   (libraries
     (library (logical device)
       (uri "D:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
-    (library (logical transistors)
-      (uri "D:\\Program Files\\KiCad\\share\\kicad\\library\\transistors.lib"))
     (library (logical conn)
       (uri "D:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
+    (library (logical transistors)
+      (uri "D:\\Program Files\\KiCad\\share\\kicad\\library\\transistors.lib"))
     (library (logical atmel)
       (uri "D:\\Program Files\\KiCad\\share\\kicad\\library\\atmel.lib"))
     (library (logical LOGIC-TXS0108EPWR_TSSOP20_)
       (uri C:\Users\Vlad\Documents\Draco\LOGIC-TXS0108EPWR_TSSOP20_.lib))
-    (library (logical CurrentControlSystems)
-      (uri C:\Users\Vlad\Documents\CurrentControlSystems.lib))
     (library (logical RFM95)
-      (uri C:\Users\Vlad\Documents\Draco\RFM95.lib)))
+      (uri C:\Users\Vlad\Documents\Draco\RFM95.lib))
+    (library (logical CurrentControlSystems)
+      (uri C:\Users\Vlad\Documents\CurrentControlSystems.lib)))
   (nets
     (net (code 1) (name /FIRE_B)
       (node (ref R25) (pin 1))
