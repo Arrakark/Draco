@@ -52,9 +52,12 @@
                 "C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/shared",
                 "C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/winrt",
                 "C:/Program Files (x86)/Arduino/libraries/*",
+                "C:/Program Files (x86)/Arduino/*",
                 "C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/*",
                 "C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/*",
-                "${workspaceRoot}"
+                "${workspaceRoot}",
+                "C:\\Users\\Vlad\\AppData\\Local\\Arduino15\\packages\\MegaCore\\hardware\\avr\\2.0.0\\cores\\MCUdude_corefiles",
+                "${workspaceRoot}/libraries/barometer/src"
             ],
             "defines": [
                 "_DEBUG",
@@ -70,9 +73,13 @@
                     "C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/ucrt",
                     "C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/shared",
                     "C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/winrt",
-                    "${workspaceRoot}"
+                    "C:/Program Files (x86)/Arduino/libraries/*",
+                    "C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/*",
+                    "C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/*",
+                    "${workspaceRoot}",
+                    "C:\\Users\\Vlad\\AppData\\Local\\Arduino15\\packages\\MegaCore\\hardware\\avr\\2.0.0\\cores\\MCUdude_corefiles"
                 ],
-                "limitSymbolsToIncludedHeaders": true,
+                "limitSymbolsToIncludedHeaders": false,
                 "databaseFilename": ""
             }
         }

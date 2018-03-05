@@ -1,0 +1,5 @@
+{
+    "port": "COM3",
+    "board": "MegaCore:avr:2560",
+    "configuration": "pinout=mega_pinout,BOD=2v7,LTO=Os,clock=16MHz_external"
+}

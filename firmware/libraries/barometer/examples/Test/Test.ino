@@ -18,7 +18,7 @@
     along with arduino-ms5xxx.  If not, see <http://www.gnu.org/licenses/>.
 
 */
-
+#include <Arduino.h>
 #include <Wire.h>
 #include <MS5xxx.h>
 
