@@ -45,19 +45,13 @@
         {
             "name": "Win32",
             "includePath": [
-                "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.12.25827/include/*",
-                "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.12.25827/atlmfc/include/*",
-                "C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um",
-                "C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/ucrt",
-                "C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/shared",
-                "C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/winrt",
-                "C:/Program Files (x86)/Arduino/libraries/*",
-                "C:/Program Files (x86)/Arduino/*",
-                "C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/*",
-                "C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/*",
-                "${workspaceRoot}",
-                "C:\\Users\\Vlad\\AppData\\Local\\Arduino15\\packages\\MegaCore\\hardware\\avr\\2.0.0\\cores\\MCUdude_corefiles",
-                "${workspaceRoot}/libraries/barometer/src"
+                "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.11.25503/include/*",
+                "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.11.25503/atlmfc/include/*",
+                "C:/Program Files (x86)/Windows Kits/10/Include/10.0.15063.0/um",
+                "C:/Program Files (x86)/Windows Kits/10/Include/10.0.15063.0/ucrt",
+                "C:/Program Files (x86)/Windows Kits/10/Include/10.0.15063.0/shared",
+                "C:/Program Files (x86)/Windows Kits/10/Include/10.0.15063.0/winrt",
+                "${workspaceRoot}"
             ],
             "defines": [
                 "_DEBUG",
@@ -67,20 +61,13 @@
             "intelliSenseMode": "msvc-x64",
             "browse": {
                 "path": [
-                    "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.12.25827/include/*",
-                    "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.12.25827/atlmfc/include/*",
-                    "C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um",
-                    "C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/ucrt",
-                    "C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/shared",
-                    "C:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/winrt",
-                    "C:/Program Files (x86)/Arduino/libraries/*",
-                    "C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/*",
-                    "C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/*",
                     "${workspaceRoot}",
-                    "C:\\Users\\Vlad\\AppData\\Local\\Arduino15\\packages\\MegaCore\\hardware\\avr\\2.0.0\\cores\\MCUdude_corefiles"
+                    "C:/Users/Vlad/Documents/Arduino/libraries",    
+                    "C:/Program Files (x86)/Arduino/libraries", 
+                    "C:/Program Files (x86)/Arduino/hardware",
+                    "C:/Program Files (x86)/Arduino/avr"          
                 ],
-                "limitSymbolsToIncludedHeaders": false,
-                "databaseFilename": ""
+                "limitSymbolsToIncludedHeaders": true
             }
         }
     ],
