@@ -51,6 +51,11 @@
                 "C:/Program Files (x86)/Windows Kits/10/Include/10.0.15063.0/ucrt",
                 "C:/Program Files (x86)/Windows Kits/10/Include/10.0.15063.0/shared",
                 "C:/Program Files (x86)/Windows Kits/10/Include/10.0.15063.0/winrt",
+                "C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino",
+                "C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/mega",
+                "C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include",
+                "C:/Users/Vlad/Documents/Arduino/libraries/*",
+                "C:/Users/Vlad/Documents/Draco/*",
                 "${workspaceRoot}"
             ],
             "defines": [
@@ -61,16 +66,21 @@
             "intelliSenseMode": "msvc-x64",
             "browse": {
                 "path": [
-                    "${workspaceRoot}/libraries/*",
-                    "${workspaceRoot}/*",
-                    "${workspaceRoot}",
-                    "C:/Users/Vlad/Documents/Arduino/libraries",
-                    "C:/Users/Vlad/Documents/Draco",        
-                    "C:/Program Files (x86)/Arduino/libraries", 
-                    "C:/Program Files (x86)/Arduino/hardware",
-                    "C:/Program Files (x86)/Arduino/avr"          
+                    "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.11.25503/include/*",
+                    "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.11.25503/atlmfc/include/*",
+                    "C:/Program Files (x86)/Windows Kits/10/Include/10.0.15063.0/um",
+                    "C:/Program Files (x86)/Windows Kits/10/Include/10.0.15063.0/ucrt",
+                    "C:/Program Files (x86)/Windows Kits/10/Include/10.0.15063.0/shared",
+                    "C:/Program Files (x86)/Windows Kits/10/Include/10.0.15063.0/winrt",
+                    "C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino",
+                    "C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/mega",
+                    "C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include",
+                    "C:/Users/Vlad/Documents/Arduino/libraries/*",
+                    "C:/Users/Vlad/Documents/Draco/*",
+                    "${workspaceRoot}"
                 ],
-                "limitSymbolsToIncludedHeaders": true
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
             }
         }
     ],

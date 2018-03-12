@@ -1,5 +1,5 @@
-#include <Arduino.h>
 #include "logger.h"
+#include "constants.h"
 
 logger telemetry_logger = new logger("logger_test_file.txt");
 
