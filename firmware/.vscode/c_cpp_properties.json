@@ -61,8 +61,11 @@
             "intelliSenseMode": "msvc-x64",
             "browse": {
                 "path": [
+                    "${workspaceRoot}/libraries/*",
+                    "${workspaceRoot}/*",
                     "${workspaceRoot}",
-                    "C:/Users/Vlad/Documents/Arduino/libraries",    
+                    "C:/Users/Vlad/Documents/Arduino/libraries",
+                    "C:/Users/Vlad/Documents/Draco",        
                     "C:/Program Files (x86)/Arduino/libraries", 
                     "C:/Program Files (x86)/Arduino/hardware",
                     "C:/Program Files (x86)/Arduino/avr"          
