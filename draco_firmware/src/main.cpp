@@ -43,7 +43,6 @@ void checkMessages()
 {
     if (radio.available())
     {
-        // Should be a message for us now
         uint8_t buf[RH_RF95_MAX_MESSAGE_LEN];
         uint8_t len = sizeof(buf);
         if (radio.recv(buf, &len))
