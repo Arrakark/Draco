@@ -7,8 +7,14 @@
 #define TEST_EN_A 25
 #define TEST_EN_B 26
 #define TEST_EN_C 27
+#define TEST_READ_C 56
+#define TEST_READ_B 55
+#define TEST_READ_A 54
 
 #define LORA_NSS 28
+#define LORA_RST 59
+#define LORA_INT 2
+
 #define SD_NSS 29
 
 #define LVL_EN 36
@@ -23,7 +29,6 @@
 #define SERVO8 42
 #define SERVO9 41
 #define SERVI10 40
-
 
 #define MAGNET_INT 62
 #define ACCEL_INT1 63
@@ -40,19 +45,14 @@
 #define LED_YELLOW 7
 #define LED_GREEN 8
 
-#define LORA_RST 59
 #define VBAT_1S 58
 #define VBAT_2S 57
-#define TEST_READ_C 56
-#define TEST_READ_B 55
-#define TEST_READ_A 54
-
-#define LORA_INT 2
-#define GPS_INT 3
 
 //GPS is connected to Serial1 not Serial
+#define GPS_INT 3
 
 #define TEST_STAND_DOUT 68
 #define TEST_STAND_SCK 69
+#define TEST_STAND_SCALE -5603.6577831753878439136671635863
 
 #endif
