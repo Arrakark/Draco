@@ -1,9 +1,12 @@
 #include <Arduino.h>
+#include "timer.h"
+#include "constants.h"
 
-void setup() {
-    // put your setup code here, to run once:
+void setup(){
+    Serial.begin(115200);
+    pinMode(LVL_EN, OUTPUT);
+    digitalWrite(LVL_EN, HIGH);
 }
 
-void loop() {
-    // put your main code here, to run repeatedly:
+void loop(){
 }

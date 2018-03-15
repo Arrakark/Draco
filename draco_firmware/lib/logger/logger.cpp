@@ -1,5 +1,4 @@
 #include "logger.h"
-#include "constants.h"
 #define logger_max 20
 
 logger::logger(String filename) {

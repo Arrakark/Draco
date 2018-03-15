@@ -1,5 +1,6 @@
 #include <SPI.h>
 #include <SD.h>
+#include <constants.h>
 
 class logger {
 public:
