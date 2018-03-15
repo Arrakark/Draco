@@ -6,11 +6,11 @@ void takeRecording();
 void stopRecording();
 void checkMessages();
 void launch();
-void sendCountdown();
 
 Timer telemetry_timer;
 
-int record_flag;
+int record_event;
+int launch_event;
 
 void setup(){
     Serial.begin(115200);
@@ -25,19 +25,19 @@ void loop(){
 
 void checkMessages(){
     //if message received
-    telemetry_timer.every(12, takeRecording);
-    telemetry_timer.every(1000, sendCountdown);
-    telemetry_timer.after(5, launch);
+    record_event = telemetry_timer.every(12, takeRecording);
+    launch_event = telemetry_timer.after(5000, launch);
 }
 
 void launch(){
 
+
+    telemetry_timer.after(10000, stopRecording);
 }
 
-void startRecording()
+void takeRecording()
 {
     //take reading here
-    record_flag = telemetry_timer.after(10000, stopRecording);
 }
 
 void stopRecording()
