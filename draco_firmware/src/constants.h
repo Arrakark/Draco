@@ -10,6 +10,8 @@
 #define TEST_READ_C 56
 #define TEST_READ_B 55
 #define TEST_READ_A 54
+//ADC threshold for the igniter test
+#define TEST_THRESHOLD 1
 
 #define LORA_NSS 28
 #define LORA_RST 59

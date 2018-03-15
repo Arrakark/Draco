@@ -11,6 +11,7 @@ void takeRecording();
 void stopRecording();
 void checkMessages();
 void launch();
+bool testLauncher(int, int);
 
 Timer telemetry_timer;
 RH_RF95 radio;
@@ -55,10 +56,19 @@ void checkMessages()
                 radio.send(data, sizeof(data));
                 radio.waitPacketSent();
                 event_logger.logText("Starting countdown");
-                launch_event = telemetry_timer.after(5000, launch);
-                //calibrate scale here
-                test_scale.tare(10);
-                record_event = telemetry_timer.every(20, takeRecording);
+                if (testLauncher(TEST_EN_A,TEST_READ_A))
+                {
+                    launch_event = telemetry_timer.after(5000, launch);
+                    //calibrate scale here
+                    test_scale.tare(10);
+                    record_event = telemetry_timer.every(20, takeRecording);
+                }
+                else { 
+                    event_logger.logText("Launch aborted. Igniter A is malfunctioning");
+                    uint8_t data[] = "Launch aborted. Igniter A is malfunctioning";
+                    radio.send(data, sizeof(data));
+                    radio.waitPacketSent();
+                }
             }
         }
     }
@@ -83,4 +93,13 @@ void stopRecording()
     telemetry_timer.stop(record_event);
     digitalWrite(LED_RED, LOW);
     digitalWrite(LED_GREEN, LOW);
+}
+
+bool testLauncher(int testpin, int readpin)
+{
+    digitalWrite(testpin, HIGH);
+    if (analogRead(readpin) > TEST_THRESHOLD)
+        return true;
+    else
+        return false;
 }
